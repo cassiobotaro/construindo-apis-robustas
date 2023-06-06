@@ -143,11 +143,11 @@ Esta ferramenta ajuda a fazer estes testes de uma maneira mais simples.
 Execute o comando:
 
 ```
-poetry add httpie --dev
+poetry add httpie --group dev
 ```
 
 !!! info
-		Utilizamos a opção --dev pois o httpie é um pacote necessário somente durante o desenvolvimento e não durante a execução do software.
+		Utilizamos a opção --group dev pois o httpie é um pacote necessário somente durante o desenvolvimento e não durante a execução do software.
 
 #### Vamos verificar se deu tudo certo?
 Execute o seguinte comando:
@@ -211,10 +211,10 @@ Já dizia Michael C. Feathers, "Um código sem testes, é um código ruim. Não 
 Execute o comando:
 
 ```
-poetry add pytest --dev
+poetry add pytest --group dev
 ```
 !!! info
- 	Utilizamos a opção --dev pois o pytest é um pacote necessário somente durante o desenvolvimento e não durante a execução do software.
+ 	Utilizamos a opção --group dev pois o pytest é um pacote necessário somente durante o desenvolvimento e não durante a execução do software.
 
 #### Vamos verificar se deu tudo certo?
 

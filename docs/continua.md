@@ -34,11 +34,11 @@ O isort irá modificar o seu código ordenando as importações alfabéticamente
 Execute o comando abaixo:
 
 ```
-poetry add isort --dev
+poetry add isort --group dev
 ```
 
 !!! info
-    Utilizamos a opção --dev pois é um pacote necessário somente durante o desenvolvimento e não durante a execução do software.
+    Utilizamos a opção --group dev pois é um pacote necessário somente durante o desenvolvimento e não durante a execução do software.
 
 #### Configuração
 
@@ -73,11 +73,11 @@ O black é um formatador automático de código, ele irá modificar o seu códig
 Execute o comando abaixo:
 
 ```
-poetry add black --dev
+poetry add black --group dev
 ```
 
 !!! info
-    Utilizamos a opção --dev pois é um pacote necessário somente durante o desenvolvimento e não durante a execução do software.
+    Utilizamos a opção --group dev pois é um pacote necessário somente durante o desenvolvimento e não durante a execução do software.
 
 #### Configuração
 
@@ -114,11 +114,11 @@ Esta ferramenta será integrada ao editor, dessa maneira, ao salvar o arquivo, t
 Execute o comando abaixo:
 
 ```
-poetry add flake8 --dev
+poetry add flake8 --group dev
 ```
 
 !!! info
-    Utilizamos a opção --dev pois é um pacote necessário somente durante o desenvolvimento e não durante a execução do software.
+    Utilizamos a opção --group dev pois é um pacote necessário somente durante o desenvolvimento e não durante a execução do software.
 
 #### Como executar
 
